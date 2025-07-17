@@ -1,0 +1,22 @@
+# Arquivos temporários do GameMaker Studio 2
+*.yyz
+*.yymps
+*.yyp~
+*.yyp.bak
+
+# Pastas de configurações de IDE/editor
+.idea/
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta de build/output (compilados)
+build/
+dist/
+
+# Logs e caches
+*.log
+cache/
+
