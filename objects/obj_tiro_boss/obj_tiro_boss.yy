@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_borda2",
-  "spriteId": null,
+  "name": "obj_tiro_boss",
+  "spriteId": {
+    "name": "spr_tiro_boss",
+    "path": "sprites/spr_tiro_boss/spr_tiro_boss.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
   ],
   "properties": [],

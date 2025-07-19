@@ -85,3 +85,12 @@ if (!is_dashing) {
     knockback_x *= 0.8;
     knockback_y *= 0.8;
 }
+// Sistema de morte do personagem
+if (vidas <= 0 && !morreu) {
+    morreu = true;
+    
+    // Chama mensagem personalizada do controlador
+    if (instance_exists(obj_controlador)) {
+        obj_controlador.criar_mensagem_com_botoes("GAME OVER!\nSuas vidas acabaram!");
+    }
+}

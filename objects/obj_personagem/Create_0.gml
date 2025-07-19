@@ -1,5 +1,3 @@
-
-
 // Suas variáveis existentes
 cooldown = 0
 vx = 0;
@@ -13,8 +11,8 @@ piscar = false;
 
 // Variáveis do dash
 cooldown_dash = 0;
-dash_speed = 12;
-dash_duration = 8;
+dash_speed = 16;
+dash_duration = 10;
 dash_timer = 0;
 is_dashing = false;
 
@@ -33,6 +31,9 @@ part_type_direction(global.dash_particle, 0, 360, 0, 5);
 part_type_life(global.dash_particle, 15, 25);
 
 // Configurações da barra de cooldown
-barra_largura = 40;        // Largura da barra
-barra_altura = 4;          // Altura da barra
-barra_offset_y = -30;      // Distância acima do personagem
+barra_largura = 40;
+barra_altura = 4;
+barra_offset_y = -30;
+
+// ADICIONAR ESTA VARIÁVEL IMPORTANTE
+morreu = false;  // Para controlar morte do personagem

@@ -1,10 +1,12 @@
-hp = 5;
-spd = 1.5;
+// Suas variáveis existentes
+hp = 10;
+spd = 2.0;
 cooldown_dano = 0;
 morreu = false;
+hp_max = 10;
+barra_largura = 30;
+barra_altura = 3;
+barra_offset_y = -20;
 
-// Configurações da barra de vida
-hp_max = 5;               // Vida máxima (mesmo valor inicial de hp)
-barra_largura = 30;       // Largura da barra de vida
-barra_altura = 3;         // Altura da barra de vida
-barra_offset_y = -20;     // Distância acima do inimigo
+// Variável para identificar origem (opcional)
+veio_da_colmeia = true;
