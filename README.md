@@ -8,36 +8,63 @@ Bem-vindo(a) ao meu primeiro jogo feito no GameMaker.
 
 ## Como jogar
 
-- WASD para se mover  
-- Mouse para mirar e atirar  
+- **WASD** para se mover  
+- **Mouse** para mirar  
+- **Botão esquerdo** para atirar  
+- **Botão direito** para dash (cooldown de 2 segundos)  
 - Derrote todos os inimigos para vencer a partida
 
 ---
 
-## O que já tem na versão 1.0.0
+## Funcionalidades da Versão Atual (1.1.0)
 
+### **Sistema de Combate**
 - Personagem com HUD de vida  
-- Movimento com teclado (WASD)  
+- Movimento fluido com teclado (WASD)  
 - Tiro livre com o mouse  
-- Inimigos que perseguem o jogador  
-- Sistema de pontuação  
+- **Sistema de dash** para esquivas estratégicas  
+- Inimigos que perseguem o jogador com IA  
+
+### **Interface Visual**
+- **Barra de cooldown** sempre visível no personagem  
+- **Barras de vida** nos inimigos para monitoramento em tempo real  
+- **Feedback visual dinâmico** com cores que indicam status das habilidades  
+
+### **Mecânicas de Jogo**
+- Sistema de pontuação ao derrotar inimigos  
 - Vitória ao eliminar todos os inimigos  
-- Música de fundo e sons de dano no personagem
+- Música de fundo e efeitos sonoros  
+- **Combate estratégico** com gerenciamento de habilidades  
+
+---
+
+## Versões Anteriores
+
+### Versão 1.0.0
+- Sistema básico de combate e movimento
+- HUD de vida do personagem
+- Inimigos com perseguição simples
+- Sistema de pontuação básico
 
 ---
 
 ## Baixar e jogar
 
-Para testar o jogo, vá até a aba de [Releases](https://github.com/JonathasGameDev/the-revolt-of-the-bees/releases) e baixe a última versão em `.zip`.  
-É só extrair e rodar.
+Para testar o jogo, vá até a aba de [Releases](https://github.com/JonathasGameDev/the-revolt-of-the-bees/releases) e baixe a última versão.  
 
 ---
 
 ## Feito com
 
-- GameMaker  
+- GameMaker Studio  
 - GML (GameMaker Language)
 
 ---
 
-Este projeto está em desenvolvimento. Qualquer sugestão ou feedback será muito bem-vindo. Obrigado por jogar.
+## Desenvolvimento
+
+Este projeto está em desenvolvimento ativo. Novas funcionalidades e melhorias são adicionadas regularmente.
+
+---
+
+**Qualquer sugestão ou feedback será muito bem-vindo. Obrigado por jogar!**
